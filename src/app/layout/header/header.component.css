@@ -1,0 +1,103 @@
+.container{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo h4{
+  color: #291178;
+}
+
+.logo i{
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 1px;
+}
+
+.navbar-section{
+  background: #250F79
+}
+
+#button-addon1{
+  background: var(--secondary-color);
+  border-radius: 50%;
+}
+
+#button-addon1 i{
+  color: #fff;
+}
+
+.post-ad-btn{
+  background: var(--blue-color);
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.input-group input:focus{
+  box-shadow: none;
+}
+
+.input-group input::placeholder{
+  font-size: 14px;
+  text-align: center;
+}
+
+.flag-btn{
+  padding: 0;
+  margin-left: 25px;
+}
+
+.search-icon{
+  position: relative;
+    top: 7px;
+    color: var(--secondary-color);
+}
+
+
+/****** Navbar ******/
+
+.language-select{
+  background: #250F79;
+  border: none;
+  color: #fff;
+}
+
+.navbar-section{
+  font-size: 14px;
+}
+
+.navbar-list ul li,
+.navbar-list ul li a
+{
+  color: #fff;
+}
+
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #250F79;
+  padding: 10px;
+  margin-top: 2px;
+  z-index: 1;
+}
+
+li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: 5px 0;
+}
+
+.submenu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu li:hover{
+  cursor: pointer;
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+}

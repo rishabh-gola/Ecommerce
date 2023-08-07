@@ -1,0 +1,56 @@
+.container-fluid {
+  height: 70vh;
+  padding: 0;
+  position: relative;
+}
+
+#carouselExampleCaptions {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.carousel-caption {
+  z-index: 99999;
+  bottom: 40%;
+  top: auto;
+}
+
+.slider-overlay{
+  height: 70vh;
+  position: absolute;
+  background: rgb(57,31,149, 0.7);
+  z-index: 2222;
+  width: 100%;
+}
+
+.carousel-caption button{
+  background: var(--pink-color);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+.carousel-caption button:hover{
+  background: #fff;
+  color: var(--pink-color);
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  z-index: 99999;
+}
+
